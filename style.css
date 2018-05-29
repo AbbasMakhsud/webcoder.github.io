@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+}
+#headView{
+	background-image: url(assets/headview.png);
+	background-size: cover;
+	height: 160vh;
+}
+
+.Logo{
+	margin-left: 35px;
+	margin-top: 35px;
+	
+}
+
+#menuIcon{
+	width: 2%;
+	margin-right: 35px;
+	margin-top: 35px;
+	float: right;
+}
+.headText{
+	position: relative;
+	top: 15vh;
+
+}
+
+.headText h2{
+	margin: 0;
+	color: white;
+}
+
+
+#socials img{
+	margin-top: 20px;
+	width: 5%;
+	margin-left: 5px;
+}
+
+i{
+	color: white;
+	font-size: 30px;
+	margin-top: 24vh;
+}
+
+
+.firstViewSpan{
+    width: 80% !important;
+    position: relative;
+    left: 192px !important;
+    top: -159px !important;
+}
+
+img{
+	width: 100%
+}
+
+/*.texts{
+	height: 55vh;
+}*/
+
+.details{
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	text-align: right;
+	float: right;
+	position: relative;
+	left: 25px;
+	top: -15px;
+	color: black;
+	font-weight: bold;
+}
+
+span{
+	float: right;
+    text-align: right;
+    width: 65%;
+    border-bottom: 1px solid gray;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 159px;
+    top: -125px;
+    font-weight: bold;
+    height: 26px;
+    padding-right: 30px;
+    border-right: 1px solid gray;
+    padding-top: 7px;
+}
+
+#footer{
+	background-color: #1C2841;
+	width: 100%
+	height:100px;
+	padding: 40px 0;
+}
+
+footer img{
+width: 80%;
+}
+
+#rightFooterSection{
+	margin-right: 10%;
+    text-align: right;
+    color: white;
+}
+
+#rightFooterSection ul{
+    margin-top: 20px;
+    text-align: right;
+    text-decoration: none;
+ }
+
+#rightFooterSection ul li a{
+	color: white;
+	font-weight: normal;
+	font-size: 12px
+}
+
+@media only screen and (max-width: 992px) {
+
+#headView{
+	height: 135vh;
+}
+
+   .text1, .text3{
+   	float: right;
+    position: relative;
+    top: -265px;
+   }
+
+   span{
+   	float: right;
+    text-align: right;
+    width: 34%;
+    border-bottom: 1px solid gray;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -224px;
+    top: 96px;
+    font-weight: bold;
+    height: 26px;
+    padding-right: 30px;
+    border-right: 1px solid gray;
+   }
+
+   .details{
+    width: 50%;
+    position: relative;
+    left: -331px;
+    top: 179px;
+   }
+
+   .images{
+   	position: relative;
+   	top: -150px;
+   }
+
+   #leftSecond{
+   	width: 41%;
+    position: relative;
+    left: -200px;
+    top: 121px;
+   }
+
+   .leftSecondDetail{
+   	    top:228px;
+}
+
+.second{
+  position: relative;
+  top: -200px;
+}
+
+.secondImg{
+  position: relative;
+    left: 115px;
+    top: 27px;
+}
+
+.secondSpanResponsive{
+      width: 38% !important;
+    position: relative;
+    left: 71px !important;
+    top: -123px !important;
+}
+
+.detailsSecond{
+left: -49px;
+    top: -25px;
+}
+
+.responsiveSpan{
+  width: 40% !important;
+    position: relative !important;
+    left: -204px !important;
+    top: 124px !important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+  .text1{
+    float: right;
+    position: relative;
+    top: -120vh;
+    text-align: center
+  }
+
+  .texts{
+    text-align: center;
+  }
+
+.headText{
+  position: relative;
+    top: 1vh;
+}
+
+ span{
+    display: none;
+  }
+
+  .details{
+        float: left;
+    width: 95%;
+    left: 10px;
+    top: 0;
+  }
+
+  .secondImg{
+        position: relative;
+     left: 0px; 
+    top: 50px;
+  }
+
+  .image3{
+        position: relative;
+    top: 150px;
+  }
+
+.texts{
+  font-size: 15px;
+}
+  .text3{
+    top: -500px;
+  }
+}
